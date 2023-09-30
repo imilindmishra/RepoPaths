@@ -1,0 +1,252 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/Github-Theme.png'); /* Replace 'your-background-image.jpg' with the path to your image */
+    background-size: 1400px 599px ;
+    background-repeat: no-repeat;
+}
+ 
+
+/* Style the navbar */
+.navbar {
+    background-color: transparent; /* Set the background color as transparent */
+    color: #FFFF; /* Change the text color to black */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure the navbar appears above other content */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFF; /* Change the color to black */
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border: 1px solid #FFFF; /* Set the border color to black */
+    border-radius: 5px;
+    margin-right: 10px; /* Adjust spacing between input and button */
+}
+
+.search-form button {
+    background-color: #333; /* Change the button color as needed */
+    color: #FFFF; /* Change the button text color as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.nav-links {
+    list-style: none;
+    margin-left: 27rem;
+    padding: 10px 0px 0px 0px;
+    display: flex; /* Change to flex display */
+    align-items: center; /* Vertically align the items */
+}
+
+.nav-links li {
+    margin-left: 10px; /* Adjust spacing between menu items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #FFFF; /* Change the color to black */
+    font-weight: bold;
+    font-size: 17px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f00; /* Change the hover color as needed */
+}
+
+/* Style the text container */
+.text-container {
+    width: 450px;
+    height: 60px;
+    font-style: bold;
+    font-size: 40px;
+    background-color: transparent; /* Set background color as transparent */
+    color: #936EFE; /* Set text color to white */
+    padding: 10px; /* Adjust padding as needed for spacing within the box */
+    position: absolute;
+    top: 150px; /* Position 20px from the top */
+    left: 20px;
+}
+
+/* Style the text */
+.text-container p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.text-box {
+    width: 400px;
+    height: 30px;
+    font-style: bold;
+    font-size: 19px;
+    background-color: transparent; /* Set background color as transparent */
+    color: #FFFF; /* Set text color to white */
+    padding: 10px; /* Adjust padding as needed for spacing within the box */
+    position: absolute;
+    top: 338px;
+    left: 20px;
+}
+
+#Features {
+    background-color: rgb(8, 1, 49);
+    margin-top: 600px;
+    height: 1200px; /* Adjusted to 1600px */
+    justify-content: space-around;
+        
+}    
+
+.featuresection {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 40px; /* Add padding to the text to control its position */
+}
+
+.tree{
+    height: 400px;
+    width: 350px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.rightsection{
+    color: #936EFE;
+    font-size: 37px;
+    font-weight: bold;
+    position: absolute;
+    top: 800px;
+    left: 600px;
+}
+
+.rightsectionsmall{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    width: 500px;
+    height: 300px;
+    top: 900px;
+    left: 600px;
+}
+
+.code img{
+    height: 400px;
+    width: 380px;
+    border: 100px;
+    margin-top: 100px;
+    margin-left: 700px;
+    border-radius: 10px;
+}
+
+.searching{
+    color: #936EFE;
+    font-size: 37px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -370px;
+}
+
+.bhagalpur{
+    color:#fff;
+    position: absolute;
+    font-size: 20px;
+    width: 500px;
+    height: 300px;
+    top: 1425px;
+    left: 100px;
+}
+
+.footer{
+    height: 300px;
+    
+    background-color: rgb(11, 4, 58);
+    margin-right: auto;
+}
+
+.first-footer{
+    color: #936EFE;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.first-footerpara{
+    font-size: 15px;
+    color: #fff;
+    margin-left: 30px;
+    height: 100px;
+    width: 400px;
+    margin-top: 40px;
+
+}
+
+.contact{
+    color:#fff;
+    font-size: 19px;
+    margin-left: 1050px;
+    margin-top: -193px;
+}
+
+.mail{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 1050px;
+}
+
+.line{
+    color: #fff;
+    margin: 10px 10px;
+}
+
+.icon-link1{
+    height: 20px;
+    width: 20px;
+    margin-left: 1050px;
+    margin-top: 10px;
+
+}
+
+.icon-link2{
+    height: 20px;
+    width: 20px;
+    margin-left: 1085px;
+    margin-top: -47px;
+}
+
+.icon-link3{
+    height: 23px;
+    width: 30px;
+    margin-left: 1125px;
+    margin-top: -95px;
+}
